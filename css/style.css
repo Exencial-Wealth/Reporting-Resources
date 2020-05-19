@@ -1,0 +1,100 @@
+@media screen {
+  .cover-page-banner {
+    height: 400px;
+  }
+  
+  .cover-page-content {
+    padding: 1.5rem;
+  }
+
+  .report,
+  .disclosures {
+    padding-bottom: 1.5rem;
+  }
+
+  .report-banner {
+    background-color: #0096dc;
+    height: 26px;
+    width: 100%;
+  }
+
+  .report-banner:hover > .report-removal-button {
+    display: block;
+  }
+
+  .report-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .investments-overview-charts {
+    height: 360px;
+  }
+
+  .column-padding-for-screen-and-print {
+    padding-top: 1.5rem;
+  }
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+.cover-page-banner {
+  background-color: #0096dc;
+  width: 100%;
+}
+
+/* .cover-page-banner {
+  height: 400px;
+} */
+
+.report-removal-button {
+  display: none;
+}
+.report-removal-button:hover {
+  cursor: pointer;
+}
+
+/* align text to right on medium devices and up  */
+@media (min-width: 768px) {
+  .text-right-lg {
+    text-align: right;
+  }
+}
+
+/* hide High Charts credits */
+.highcharts-credits {
+  display: none !important;
+}
+
+/* High Charts font */
+.highcharts-container text {
+  /* Overwrite default sizing */
+  font-size: 12px !important;
+  /* Bootstrap font families */
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  /* Exencial black overwrite default */
+  color: #212529 !important;
+}
+
+.cover-page, .report {
+  background: #ffffff;
+  margin-bottom: 50px;
+  box-shadow: 0 0 12px rgba(0,0,0,.125);
+}
+
+/* override Bootstrap table width of 100% */
+.table-nonfluid {
+  width: auto !important;
+}
+
+/* set column max width */
+.column-max-width-256px {
+  width: 256px;
+}
+
+/**/
+[data-toggle]:hover {
+  cursor: pointer;
+}
