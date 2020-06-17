@@ -42,6 +42,11 @@
     padding-right: 1.5rem;
   }
 
+  /* Show Bootstrap's table header background */
+  .table .thead-light th {
+    background-color: #e9ecef !important;
+  }
+
   .investments-overview-summary-table {
     margin-bottom: 0.5rem;
   }
