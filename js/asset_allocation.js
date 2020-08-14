@@ -34,7 +34,8 @@ Highcharts.chart(assetAllocationReportPieChart.id, {
     plotBackgroundColor: null,
     plotBorderWidth: null,
     plotShadow: false,
-    type: 'pie'
+    type: 'pie',
+    height: '280'
   },
   title: {
     text: ''
